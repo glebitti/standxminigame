@@ -1231,7 +1231,7 @@
     function shareResult() {
       const rank = document.getElementById("sc-rank-text").innerText;
       // Вставь сюда свой домен или Telegram Mini App ссылку после публикации:
-      const GAME_URL = "https://standx.app/game";
+      const GAME_URL = "https://standxminigame.vercel.app/";
 
       const text = `Just crushed the Citadel Floor on StandX! 🛸\n\nRank: ${rank}\nFinal Margin: $${state.balance.toLocaleString()} DUSD\nStandX Rep: ${state.rep}\n\nFront-run the whales with zero slippage:\n${GAME_URL}`;
       const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
